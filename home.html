@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>HomePage</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <script>
+        function cart(){
+            window.location.href="addtocart.html";
+        }
+        function product(){
+            window.location.href="#product.html"
+        }
+        
+    </script>
+    <body>
+        <div class="container">
+            <div class="top-nav">
+                <div class="logo">
+                    <img style="border-radius: 10px;" src="logo.png" width="100px" height="50px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home.html">Home</a></li>
+                        <li><a href="#product.html">Product</a></li>
+                        <li><a href="#about.html">About</a></li>
+                        <li><a href="#contact.html">Contact</a></li>
+                        <li><a href="login.php">Account</a></li>  
+                        <li><img src="shopping-cart.png" onclick="cart()"></li>
+                    </ul>
+                </nav>            
+            </div>
+        </div>
+
+
+
+
+        <!-- ---------------after navigation---------- -->
+        <div class="row">
+            <div class="smalldiv" >
+                <div class="col-2parent" style="padding: 10px 0px;align-self: center;width: 300px;"> 
+                <div class="col-2">
+                    <h1>Give Your T-Shirt A New Style</h1>
+                    <p>Successful people do what unsuccessful people are not willing to do.Don't wish it were easier;wish you were better.</p>
+                    <button onclick="product()" class="explorenowbtn"><span>Start Customizing </span></button>
+                </div>
+                </div>
+                
+            </div>
+            <div class="col-2">
+                <img src="menpt.png" width="450px" height="500px" style="margin-left: -100px;">
+            </div>
+            
+            <div class="col-2">
+                <img src="womenpt.png" width="450px" height="500px" style="margin-right: -100px;"  >
+            </div>
+            
+        </div>
+
+        <!-- -----------about us ---------  -->
+        <div class="aboutus-container"> 
+            <div class="col-5">
+                <img class="hangingtshirt" src="hangingtshirt.png">
+            </div>
+            <div class="col-5">
+                <h1>ABOUT US</h1>
+                <p>We are Printing Company based in Delhi, India with the best quality at <br>best prices. We have specialized in all customized corporate and <br>individual printing requirements like T-shirt, Hoodies, Mugs and Caps.<br>Printed tshirts/hoodies is the perfect way to speak your mind in your<br>own style.</p>
+            </div>
+        </div>
+
+
+
+        <!-- ----------------featured category------------- -->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row1">
+                    <div class="col-3"><img src="category1.jpg"></div>
+                    <div class="col-3"><img src="category2.jpg"></div>
+                    <div class="col-3"><img src="category3.jpg"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ----------------featured product------------ -->
+        
+            <div class="small-container">
+                <h2 class="title">Featured Product</h2>
+                <div class="row1">
+                    <div class="col-4">
+                        <img src="product1.jpg">
+                        <h4>Printed T-Shirts</h4>
+                        <p>Rs.500</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="category1.jpg">
+                        <h4>Printed T-Shirts</h4>
+                        <p>Rs.500</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="product1.jpg">
+                        <h4>Printed T-Shirts</h4>
+                        <p>Rs.500</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="product1.jpg">
+                        <h4>Printed T-Shirts</h4>
+                        <p>Rs.500</p>
+                    </div>
+                </div>
+            </div>
+       
+<!-- -----------footer---------- -->
+<div class="footer-container">
+    <h2>Follow Us</h2>
+    <div class="social">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-instagram"></a>
+</div>
+</div>          
+        
+    </body>
+</html>
